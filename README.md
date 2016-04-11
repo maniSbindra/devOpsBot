@@ -3,7 +3,9 @@
 ## Solution Overview
 ![Solution Overview](https://raw.githubusercontent.com/maniSbindra/devOpsBot/master/solution%20overview/DevBot.jpg "Solution Overview")
 
-### Following features have been included in the initial release of devBot which is our DevOps Bot. The main application logic is in the file devBotModules/vstsBot.coffee
+### The main application logic is in the file devBotModules/vstsBot.coffee
+
+### Following features have been included in the initial release of devBot which is our DevOps Bot. 
 1. Slack - VSTS task expander : If Visual Studio Team Services (VSTS) project task number is mentioned in the slack channel in format **task #_tasknumber_**, the task expander gives the details of the task along with link to edit the task in VSTS
 2. Slack - VSTS build trigger : Authorised users can trigger VSTS builds using the format **#triggerbuild _buildnumber_** 
 
