@@ -1,0 +1,49 @@
+{
+  "name": "slack-client",
+  "version": "1.5.1",
+  "description": "A library for creating a full Slack client",
+  "scripts": {
+    "start": "coffee ./devBotModules/vstsBot.coffee",
+    "test": "mocha --compilers coffee:coffee-script/register --reporter spec",
+    "prepublish": "grunt prepublish"
+
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "Slack Technologies, Inc. extended my Maninderjit Bindra",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/slackhq/node-slack-client.git"
+  },
+  "bugs": {
+    "url": "http://github.com/slackhq/node-slack-client/issues"
+  },
+  "dependencies": {
+    "coffee-pattern": "0.0.6",
+    "coffee-script": "^1.9.3",
+    "https-proxy-agent": "1.0.0",
+    "log": "1.4.0",
+    "request": "^2.67.0",
+    "ws": "0.8.1"
+  },
+   "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-zip": "^3.0.2",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-release": "~0.6.0",
+    "grunt-shell": "~0.5.0",
+    "mocha": "~1.13.0",
+    "should": "~2.0.2",
+    "sinon": "^1.15.4"
+  },
+   "engines": {
+    "node": ">= 0.10.x",
+    "npm": ">= 1.1.x"
+    
+  }
+}
