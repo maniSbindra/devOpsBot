@@ -12,7 +12,7 @@
 ### integration with other components
 1. VSTS : Basic HTTP authentication is used to integrate with VSTS
 2. Slack Channel : Slack custom integration with the BOT is used, the slack token provided needs to be specified
-3. Build Admin REST API : when build trigger patter is detected this API is called to check if user has permissions to check if user has permissions to trigger builds . Please refer https://github.com/maniSbindra/buildAdminAPI 
+3. Build Admin REST API : when build trigger patter is detected this API is called to check if user has permissions to check if user has permissions to trigger builds . Please refer https://github.com/brijrajsingh/Azure-AD-AuthSlackID-API  
 
 ## Web App Configuration
 ### Following Environment Variables / Appsettings are needed for the application
